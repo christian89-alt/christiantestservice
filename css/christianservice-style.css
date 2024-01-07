@@ -7,6 +7,103 @@ body {
   color: white;
   position: relative;
 }
+.container{
+  max-width: 1368px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  .navbar{
+      min-height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo{
+          font-size: 2.25rem;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          font-weight: 700;
+      }
+      .nav-links{
+          display: flex;
+          align-items: center;
+          li{
+              list-style-type: none;
+              a{
+                  text-decoration: none;
+                  color: #fff;
+                  margin: 0 1.25rem;
+                  font-weight: 500;
+                  font-size: 1.05rem;
+                  position: relative;
+                  &::after{
+                      position: absolute;
+                      content: '';
+                      background-color: #fff;
+                      bottom: -5px;
+                      left: 0;
+                      width: 0%;
+                      height: 3px;
+                      transition: 0.3s ease all;
+                  }
+                  &:hover::after{
+                      width: 100%;
+                  }
+              }
+          }
+          button{
+              border: none;
+              outline: none;
+              cursor: pointer;
+              padding: 0.75rem 1rem;
+              margin: 0 1rem;
+              border-radius: 6px;
+              background: transparent;
+              border: 2px solid #fff;
+              color: #fff;
+              font-weight: 500;
+          }
+      }
+      i{
+          display: none;
+          color: #fff;
+          cursor: pointer;
+      }
+  }
+  .showcase{
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 35rem;
+      h1{
+          color: #fff;
+          font-size: 2.5rem;
+          margin-bottom: 0;
+          font-weight: 700;
+          margin-bottom: 1rem;
+      }
+      p{
+          margin-top: 0;
+          color: #fff;
+          font-weight: 500;
+          line-height: 1.4;
+          font-size: 0.9rem;
+          width: 30rem;
+      }
+      button{
+          margin-top: 1rem;
+          background-color: #000;
+          color: #fff;
+          border: none;
+          outline: none;
+          padding: 1rem 1.5rem;
+          font-size: 0.9rem;
+          border-radius: 6px;
+          cursor: pointer;
+      }
+  }
+}
 
 h1 {
   font-size: 2.8rem;
