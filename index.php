@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,7 +65,7 @@
     <div id="mysidenav" class="container">
         <a id="closeBtn" href="#" class="close">&times;</a>
         <nav class="navbar">
-            <a href="#" src="img/Offshore Services.png" class="logo"></a>
+            <a href="#" class="logo">CD</a>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -182,24 +185,18 @@
                                                                 <li>Assistance au développement commercial et accompagnement à la transition digitale </li>
                                                                 <li>Développement d'application web et mobile</li>
                                                                 <li>Gestion de projet</li>
-                                                                <li>Assistance administrative et création d'entreprise</li>
+                                                                <li>Assistance administrative et création d'entreprise en France et à l'étranger</li>
+                                                                <li>Etablissement prévisionnel financiers</li>
                                                             </ul>
                                                             <p>
-                                                                compétence en management de projet ou en développement frontend ou backend selon vos besoins.
+                                                            Encore peu connu par les chefs d’entreprise de TPE et PME, le consulting permet aux dirigeants d’être accompagné de manière opérationnelle par un consultant qui va leur apporter la prise de recul nécessaire, un savoir-faire sur son domaine d’expertise et son expérience.</p>
+                                                            <p> Cela va permettre aux dirigeants de prendre les bonnes décisions afin de minimiser les risques pour le développement de la société.</p>
 
-                                                            </p> 
-                                                             
-
-                                                        
-                                                            
-                                                            
-                                                            - WordPress, E-commerce/ Création de site vitrine
-                                                            - HTML5 / CSS3 / React Js( Next Js) / NodeJs
-                                                            - Gestion de projet /Méthodologie scrum - 
-                                                        
-                                                        <p class="mb-4">Sed ex turpis, vulputate in efficitur id, lobortis eget nibh. Pellentesque maximus ipsum eget velit imperdiet sodales. Suspendisse in blandit mi.</p>
-                                                        <p class="mb-5">Pellentesque finibus felis risus, ut malesuada felis viverra at. Quisque accumsan in mi non hendrerit.</p>
-                                                        <a href="#" class="btn tm-btn-gray">Read More</a>        
+                                                         
+                                                                                  
+                                                        <p class="mb-4"></p>
+                                                        <p class="mb-5"></p>
+                                                        <a href="#" class="btn tm-btn-gray">Me contacter</a>        
                                                     </div>                                                
                                                     <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
                                                         <img src="img/charlesdeluvio-rRWiVQzLm7k-unsplash.jpg" class="img-fluid">
