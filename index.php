@@ -67,9 +67,9 @@
         <nav class="navbar">
             <a href="#" class="logo">CD</a>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Transition digital</a></li>
+                <li><a href="#">Création entreprise</a></li>
                 <li><a href="#">Contact</a></li>
                 <button>Sign In</button>
                 <button>Sign Up</button>
