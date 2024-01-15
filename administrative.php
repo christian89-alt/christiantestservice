@@ -23,13 +23,13 @@
 </head>
 
 <body>
-    <?php include ("header.php")?>
+    <?php include ("public\partial\header.php");?>
 
   
 	<div id="menu-container">
 		<div id="menu-1" class="homepage home-section container">
 			<div class="home-intro text-center">
-				<h2 class="welcome-title animated fadeInLeft">Introduction</h2>
+				<h2 class="welcome-title animated fadeInLeft">CHRISTIAN DUBOC SERVICES </h2>
 				<p class="animated fadeInRight">Raleway HTML5 template is provided by <span class="blue">template</span><span class="green">mo</span>. Credit goes to <a href="http://unsplash.com">Unsplash</a> for photos. Feel free to modify and use this layout for any personal or commercial website.</p>
 				<ul class="list-icons animated fadeInUp">
 					<li><i class="icon-trophy"></i></li>
@@ -261,7 +261,7 @@
     
     
    
-    <?php include ("footer.php") ?>
+    <?php include ('public\partial\footer.php'); ?>
 
     <script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->    
     <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->  
@@ -269,35 +269,7 @@
     <script src="js/main.js"></script>  
     <script src="js/burger.js"></script>
     <script src="js/templatemo_custom.js"></script>
-    <script>      
-
-        function setupFooter() {
-            var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
-
-            var main = $('.tm-main-content');
-
-            if($(window).height() < pageHeight) {
-                main.addClass('tm-footer-relative');
-            }
-            else {
-                main.removeClass('tm-footer-relative');   
-            }
-        }
-
-        /* DOM is ready
-        ------------------------------------------------*/
-        $(function(){
-
-            setupFooter();
-
-            $(window).resize(function(){
-                setupFooter();
-            });
-
-            $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
-        });
-
-    </script>             
+            
 
 </body>
 </html>
