@@ -1,187 +1,116 @@
-/* ******************** NAV BAR ******************** */
-.topnav {
-    background:transparent;
-    display: flex;
-    align-items: center;
-    width: 100%;
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navbar,
+.navbar-burger,
+.menu,
+.background {
+  position: fixed;
+}
+
+.background {
+  z-index: 1;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  background-image: url("assets/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+body.open .background {
+  filter: blur(20px);
+}
+
+.navbar {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  padding-left: 20px;
+  padding-right: 72px;
+  background: transparent;
+  color: #f9f9f9;
+}
+
+.navbar > button {
+  font-size: 28px;
+}
+
+.navbar-logo {
+  height: 25px;
+}
+
+.navbar-burger {
+  z-index: 3;
+  top: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  background-image: url("https://raw.githubusercontent.com/frontend-joe/css-navbars/e4eece5d6db2b5ba905eed193ffef18075a6965e/navbar-3/assets/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.open .navbar-burger {
+  background-image: url("https://raw.githubusercontent.com/frontend-joe/css-navbars/e4eece5d6db2b5ba905eed193ffef18075a6965e/navbar-3/assets/close.svg");
+}
+
+.menu {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+body.open .menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu > a {
+  color: #f9f9f9;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+body.open .menu > a {
+  animation: appear 0.3s both;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    translate: 0 50px;
   }
-  .topnav_link {
-    color: white;
-    padding: 12px;
-    text-decoration: none;
+  100% {
+    opacity: 1;
   }
-  .topnav_link:hover {
-    color: #0078b4;
-  }
-  
-  /* hide responsive menu */
-  #topnav_hamburger_icon,
-  #topnav_responsive_menu {
-    display: none;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    /* hide classic menu */
-    #topnav_menu {
-      display: none;
-    }
-  
-    /* position home link at left and hamburger at right */
-    #home_link {
-      flex-grow: 1;
-    }
-  
-    /* disable horizontal scrolling  */
-    #root {
-      position: relative;
-      overflow-x: hidden;
-    }
-  
-    /* show responsive menu and position at the right of the screen */
-    #topnav_responsive_menu {
-      display: block;
-      position: absolute;
-      margin: 0;
-      right: 0;
-      top: 0;
-      width: 100vw;
-      height: 100vh;
-  
-      z-index: 99;
-  
-      transform-origin: 0% 0%;
-      transform: translate(200%, 0);
-  
-      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    }
-  
-    #topnav_responsive_menu ul {
-      display: flex;
-      flex-direction: column;
-  
-      position: absolute;
-      margin: 0;
-      right: 0;
-      top: 0;
-  
-      min-width: 50vw;
-      height: 100vh;
-      padding: 56px 0 0;
-  
-      text-align: center;
-  
-      background: #ededed;
-      list-style-type: none;
-      -webkit-font-smoothing: antialiased;
-    }
-  
-    #topnav_responsive_menu li {
-      padding: 12px 24px;
-    }
-  
-    #topnav_responsive_menu a {
-      white-space: nowrap;
-      color: #333;
-      text-decoration: none;
-    }
-  
-    /* And let's slide it in from the right */
-    #topnav_responsive_menu.open {
-      transform: none;
-      position: fixed;
-    }
-  
-    /* ******************** HAMBURGER ICON ******************** */
-    /* define size and position of the hamburger link */
-    #topnav_hamburger_icon {
-      display: block;
-      position: relative;
-      margin: 16px;
-      width: 33px;
-      height: 28px;
-  
-      z-index: 100;
-  
-      -webkit-user-select: none;
-      user-select: none;
-      cursor: pointer;
-    }
-  
-    /* define the style (size, color, position, animation, ...) of the 3 spans */
-    #topnav_hamburger_icon span {
-      display: block;
-      position: absolute;
-      height: 4px;
-      width: 100%;
-      margin-bottom: 5px;
-  
-      background: #ededed;
-      border-radius: 3px;
-  
-      z-index: 100;
-  
-      opacity: 1;
-      left: 0;
-  
-      -webkit-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      transform: rotate(0deg);
-      -webkit-transition: 0.25s ease-in-out;
-      -moz-transition: 0.25s ease-in-out;
-      -o-transition: 0.25s ease-in-out;
-      transition: 0.25s ease-in-out;
-    }
-  
-    /* set the 3 spans position to look like a hamburger */
-    #topnav_hamburger_icon span:nth-child(1) {
-      top: 0px;
-      -webkit-transform-origin: left top;
-      -moz-transform-origin: left top;
-      -o-transform-origin: left top;
-      transform-origin: left top;
-    }
-    #topnav_hamburger_icon span:nth-child(2) {
-      top: 12px;
-      -webkit-transform-origin: left center;
-      -moz-transform-origin: left center;
-      -o-transform-origin: left center;
-      transform-origin: left center;
-    }
-    #topnav_hamburger_icon span:nth-child(3) {
-      top: 24px;
-      -webkit-transform-origin: left bottom;
-      -moz-transform-origin: left bottom;
-      -o-transform-origin: left bottom;
-      transform-origin: left bottom;
-    }
-  
-    /* change color when opening the menu */
-    #topnav_hamburger_icon.open span {
-      background: #333;
-    }
-  
-    /* the first span rotates 45° \ */
-    #topnav_hamburger_icon.open span:nth-child(1) {
-      width: 110%;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-  
-    /* the second span disappears */
-    #topnav_hamburger_icon.open span:nth-child(2) {
-      width: 0%;
-      opacity: 0;
-    }
-  
-    /* the last span rotates -45° / */
-    #topnav_hamburger_icon.open span:nth-child(3) {
-      width: 110%;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-    }
-  }
+}
