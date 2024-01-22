@@ -42,7 +42,7 @@
                                                                 </div>
                                                             </div>                                                        
                                                             <div class="form-group">
-                                                              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                                              <textarea name='message'id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
                                                             </div>
                                                             <button type="submit" class="btn btn-primary tm-btn-submit">Envoyer</button>
                                                         </form>
