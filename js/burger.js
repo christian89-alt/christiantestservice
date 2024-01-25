@@ -1,15 +1,14 @@
-var sidenav = document.getElementById("mySidenav");
-var openBtn = document.getElementById("openBtn");
-var closeBtn = document.getElementById("closeBtn");
+const links = document.querySelectorAll("nav li");
 
-openBtn.onclick = openNav;
-closeBtn.onclick = closeNav;
+icons.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
 
-/* Set the width of the side navigation to 250px */
-function openNav() {
-  sidenav.classList.add("active");
-}
-
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+});
 /* Set the width of the side navigation to 0 */
 function closeNav() {
   sidenav.classList.remove("active");
