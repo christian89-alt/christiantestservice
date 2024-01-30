@@ -17,18 +17,20 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: calc(0.5rem + 1.5vw);
+  font-size: 0.8 em;
   cursor: pointer;
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  cursor: pointer;
 }
 
 .topnav a.active {
   background-color: transparent;
   color: white;
+  cursor:pointer;
 }
 
 .topnav .icon {
