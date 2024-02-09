@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -43,7 +45,7 @@
                 <div class="col-lg-4 sticky-lg-top vh-100">
                     <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
                         <img class="w-100 img-fluid mb-4" src="img/profile.jpg" alt="Image">
-                        <h1 class="text-primary mt-2">John Doe</h1>
+                        <h1 class="text-primary mt-2">Christian DUBOC</h1>
                         <div class="mb-4" style="height: 22px;">
                             <h4 class="typed-text-output d-inline-block text-light"></h4>
                             <div class="typed-text d-none">Conseil Entreprise, Gestion & assistance administrative</div>
@@ -63,8 +65,8 @@
                 <div class="col-lg-8">
                     <!-- About Start -->
                     <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">About Me</h1>
-                        <p>Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et accusam ipsum erat duo. Gubergren et takimata dolor duo amet et sanctus elitr lorem. Ipsum amet duo rebum dolor labore. No diam duo lorem elitr dolor takimata elitr no. Magna et gubergren duo ipsum sed, amet ea voluptua dolores voluptua dolor ipsum et. Sit takimata erat consetetur invidunt lorem consetetur. Lorem magna diam vero nonumy. Aliquyam diam voluptua magna et magna nonumy. Accusam rebum clita et sit vero lorem, voluptua amet sit eos no et labore vero, et consetetur justo et et sit aliquyam labore, sit erat lorem justo dolores kasd est sit. Dolor et accusam ea et dolor sit.</p>
+                        <h1 class="title pb-3 mb-5">A propos de moi</h1>
+                        <p>Spécialiste entreprise je vous accompagne.</p>
                         <div class="row mb-4">
                             <div class="col-sm-6 py-1">
                                 <span class="fw-medium text-primary">Nom:</span> Christian DUBOC
@@ -82,7 +84,7 @@
                                 <span class="fw-medium text-primary">Phone:</span> +33 7 67 53 36 25
                             </div>
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Email:</span> info@example.com
+                                <span class="fw-medium text-primary">Email:</span> c.duboc43@gmail.com
                             </div>
                             <div class="col-sm-6 py-1">
                                 <span class="fw-medium text-primary">Address:</span> 123 Street, New York, USA
@@ -96,8 +98,8 @@
                                 <div class="d-flex bg-secondary p-4">
                                     <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
                                     <div class="ps-3">
-                                        <p class="mb-0">Years of</p>
-                                        <h5 class="mb-0">Experience</h5>
+                                        <p class="mb-0">Année</p>
+                                        <h5 class="mb-0">D'experience</h5>
                                     </div>
                                 </div>
                             </div>
