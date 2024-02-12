@@ -46,6 +46,11 @@ h1 {
   display: grid;
 
 }
+.ul_footer{
+
+  list-style-type: none;
+  text-align: start;
+}
 #tm-bg:after {
   content: "";
   display: block;
