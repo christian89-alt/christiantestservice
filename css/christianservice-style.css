@@ -45,7 +45,17 @@ h1 {
 .container_services{
   display: grid;
   grid-template-columns: 1 fr ;
+  padding: 30px;
 
+}
+.p_container{
+  padding: 30px;
+  text-align: start;
+
+}
+.h5_container{
+  padding: 30 px;
+  margin: 20px;
 }
 
 
