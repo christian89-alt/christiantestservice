@@ -23,7 +23,9 @@ h1 {
   z-index: -1;
   transition: all 0.3s ease;
 }
-
+.li_footer{
+  list-style-type: none;
+}
 .footer_section{
   width: auto;
   height: 350px;
@@ -117,7 +119,7 @@ h1 {
   background: #000000;
   z-index: -1;
 }
-.ul_footer{
+.ul_footer, .li_footer{
 
   list-style-type: none;
   text-align: start;
