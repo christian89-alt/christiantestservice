@@ -80,11 +80,11 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="./index.html">Accueil</a></li>
-            <li><a href="./about.html">Le cabinet</a></li>
-            <li><a href="./web-developpement.html">Web & Mobil</a></li>
-            <li><a href="./agence_commerciale.html">Assistance commerciale</a></li>
-            <li><a href="./offshore.html">Offshore</a></li>
+            <li><a href="./index.php">Accueil</a></li>
+            <li><a href="./about.php">Le cabinet</a></li>
+            <li><a href="./web-developpement.php">Web & Mobil</a></li>
+            <li><a href="./agence_commerciale.php">Assistance commerciale</a></li>
+            <li><a href="./offshore.php">Offshore</a></li>
             <li><a href="./contact-us.php">Contact</a></li> 
           </ul>
         </div>
