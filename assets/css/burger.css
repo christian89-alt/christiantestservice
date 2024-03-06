@@ -1,9 +1,7 @@
 /*menu*/
-
-
 .navbar-default
 	{
-		background: black;
+		background: #fff;
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
@@ -19,7 +17,7 @@
 .navbar-default .navbar-nav li a
 	{
 		font-weight: bold;
-		font-size: 2rem;
+		font-size: 13px;
 		height: 70px;
 		line-height: 40px;
 	}
@@ -38,62 +36,3 @@
 	top: 0;	
 }
 
-
-/* fin  de menus*/
-
-
-.container-fluid.main{
-  position: relative; /* To make the navbar positions relative to this container */
-  padding: 0;
-}
-
-.navbar-default {
-  background-image: none;
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
-  padding: 10px;
-  position: absolute; 
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
-}
-
-.navbar-default .navbar-brand {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ffffff;
-  background-color: transparent;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-  background-color: grey;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: white;
-}
-
-.navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-toggle:focus {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
