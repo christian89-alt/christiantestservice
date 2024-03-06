@@ -14,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/burger.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
@@ -40,57 +41,56 @@
   <!-- end preloader -->
 
   <!-- start header -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-12">
-          <p>
-            <i class="fa fa-phone"></i><span> Téléphone</span>+33 7 67 53 36
-            25
-          </p>
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-12">
-          <p>
-            <i class="fa fa-envelope-o"></i><span> Email</span><a href="#">c.duboc43@gmail.com</a>
-          </p>
-        </div>
-        <div class="col-md-5 col-sm-4 col-xs-12">
-          <ul class="social-icon">
-            <li><a href="./contact-us.php"><span>ME CONTACTER</span></a></li>
-
-
-          </ul>
+  <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url(assets/img/pop3-bg.jpg);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Company Logo</a></h1>
+              <ul>
+                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html"><span>Le cabinet</span></a></li>
+                <li><a href="offshore.html"><span>Offshore</span></a></li>
+                <li><a href="web-developpement.html"><span>Web & Mobile</span></a></li>
+                <li><a href="agence_commerciale.html"><span>Agent commercial</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+    </nav>
+
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="colorlib-navbar-brand">
+            <a class="colorlib-logo" href="index.html">Offshore Services</a>
+          </div>
+          <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+        </div>
+      </header>
+
+      <section class="hero-wrap js-fullheight">
+        <div class="container px-0">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+            data-scrollax-parent="true">
+            <div class="col-md-12 ftco-animate text-center">
+              <div class="desc">
+                <h1>Website Menu #10</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
-  </header>
-  <!-- end header -->
-
-  <!-- start navigation -->
-  <nav class="navbar navbar-default templatemo-nav" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-        </button>
-        <a href="#" class="navbar-brand">Offshore Services</a>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="./index.html">ACCUEIL</a></li>
-          <li><a href="./about.html">LE CABINET</a></li>
-          <li><a href="./web-developpement.html">WEB & MOBIL</a></li>
-          <li><a href="./offshore.html">OFFSHORE</a></li>
-          <li><a href="./agence_commerciale.html">ADMINISTRATIF</a></li>
-          <li><a href="./contact-us.php">CONTACT</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- end navigation -->
-
+  </div>
+  
   <!-- start home -->
   <section id="home">
     <div class="container">
@@ -267,6 +267,9 @@
       t.parentNode.insertBefore(e, t);
     })(document, "script");
   </script>
+  <script src="js/popper.js"></script>
+
+  <script src="js/main.js"></script>
   <!-- end copyright -->
 </body>
 

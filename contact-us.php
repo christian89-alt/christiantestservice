@@ -39,55 +39,56 @@
   <!-- end preloader -->
 
   <!-- start header -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-12">
-          <p>
-            <i class="fa fa-phone"></i><span> Téléphone</span>+33 7 67 53 36
-            25
-          </p>
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-12">
-          <p>
-            <i class="fa fa-envelope-o"></i><span> Email</span><a href="#">c.duboc43@gmail.com</a>
-          </p>
-        </div>
-        <div class="col-md-5 col-sm-4 col-xs-12">
-          <ul class="social-icon">
-            <li><a href="./contact-us.php"><span>ME CONTACTER</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- end header -->
-
-  <!-- start navigation -->
-  <div class="container-fluid main">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-          <a class="navbar-brand" href="./index.html">Offshore Services </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="./index.html">Accueil</a></li>
-            <li><a href="./web-developpement.html">Web & Mobil</a></li>
-            <li><a href="./agence_commerciale.html">Assistance commerciale</a></li>
-            <li><a href="./offshore.html">Offshore</a></li>
-            <li><a href="./contact-us.html">Contact</a></li> 
-          </ul>
+  <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url(assets/img/pop3-bg.jpg);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Company Logo</a></h1>
+              <ul>
+                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html"><span>Le cabinet</span></a></li>
+                <li><a href="offshore.html"><span>Offshore</span></a></li>
+                <li><a href="web-developpement.html"><span>Web & Mobile</span></a></li>
+                <li><a href="agence_commerciale.html"><span>Agent commercial</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-  <!-- end navigation -->
 
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="colorlib-navbar-brand">
+            <a class="colorlib-logo" href="index.html">Offshore Services</a>
+          </div>
+          <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+        </div>
+      </header>
+
+      <section class="hero-wrap js-fullheight">
+        <div class="container px-0">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+            data-scrollax-parent="true">
+            <div class="col-md-12 ftco-animate text-center">
+              <div class="desc">
+                <h1>Website Menu #10</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+ 
   <!-- start home -->
   <section id="home">
     <div class="container">
@@ -107,8 +108,7 @@
               Développement et optimisation entreprise
             </div>
           </div>
-          <a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50"
-            data-wow-delay="0.6s">GET STARTED</a>
+          <a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET STARTED</a>
         </div>
       </div>
     </div>
@@ -144,7 +144,7 @@
             <span>N'hésitez pas à me contacter pour que nous échangions sur votre projet!</span>
             <p><i class="fa fa-phone"></i> + 33 7 67 53 36 25</p>
             <p><i class="fa fa-envelope-o"></i> c.duboc43@gmail.com</p>
-          
+
           </address>
           <ul class="social-icon">
             <li>
@@ -173,6 +173,9 @@
     </div>
   </footer>
   <!-- end copyright -->
+  <script src="js/popper.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
