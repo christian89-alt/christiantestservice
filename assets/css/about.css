@@ -35,6 +35,8 @@ body {
 
 .summary {
   padding: 20px;
+  display: grid;
+  width: 100%;
 
   p {
     font-size: 1.6rem;
