@@ -1,6 +1,8 @@
 body {
   background: transparent;
   color: #fff;
+  font-weight: 300;
+  font-size: 1.7rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 
@@ -37,6 +39,7 @@ body {
 }
 
 .summary {
+  background-color: black;
   padding: 20px;
   display: grid;
   width: 100%;
