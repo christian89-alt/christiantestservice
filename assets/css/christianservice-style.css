@@ -294,6 +294,11 @@ header .social-icon li a
 	}
 /* end service */
 
+/*mes expertises*/
+
+.section_container{
+	background-color: transparent;
+}
 
 /* start contact */
 #contact
