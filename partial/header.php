@@ -16,7 +16,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-  <title> Offshore Services </title>
+  <title> Offshore Services | Conseil entreprise</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
@@ -34,7 +34,7 @@
   <div class="hero_area">
     <!-- header section strats -->
     <div class="hero_bg_box">
-      <img src="assets/img/energy-3125125_1280.jpg" alt="">
+      <img src="assets/img/2pop-bg.jpg" alt="">
     </div>
 
     <header class="header_section">
@@ -44,7 +44,7 @@
             <a href="" class="contact_link1">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
-                Votre spécialiste en rénovation énergétique
+                Votre spécialiste de l'entreprise
               </span>
             </a>
             <a href="" class="contact_link2">
@@ -67,7 +67,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
               <span>
-                Rénovation énergétique
+                Conseil en gestion d'entreprise
               </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,16 +80,16 @@
                   <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> Le cabinet </a>
+                  <a class="nav-link" href="about.php"> Le cabinet </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html"> Services </a>
+                  <a class="nav-link" href="service.php"> Services </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact-us.php"> Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact-us.php"> Blog </a>
+                  <a class="nav-link" href="#"> Blog </a>
                 </li>
           
               </ul>
@@ -109,9 +109,9 @@
                 <div class="col-md-7">
                   <div class="detail-box">
                     <h1>
-                      VOTRE EXPERT ENERGETIQUE <br>
+                      VOTRE EXPERT EN  <br>
                       <span>
-                        pour payer moins
+                        gestion d'entreprise
                       </span>
                     </h1>
                     <p>
