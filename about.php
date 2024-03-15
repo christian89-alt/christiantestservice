@@ -156,7 +156,7 @@ include 'partial/header.php';
   <!-- footer section -->
 
   <?php 
-  include 'partial/footer.php'
+  include 'partial/footer.php';
 
   ?>
   

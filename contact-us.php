@@ -1,6 +1,6 @@
 <?php
 
-include 'partial/header.php'
+include 'partial/header.php';
 ?>
 
 
@@ -149,7 +149,7 @@ include 'partial/header.php'
   <!-- end info_section -->
 
 <?php
-include 'partial/footer.php'
+include 'partial/footer.php';
 ?>
 </body>
 

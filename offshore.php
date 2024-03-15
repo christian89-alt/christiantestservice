@@ -1,5 +1,5 @@
 <?php
-include 'partial/header.php'
+include 'partial/header.php';
 ?>
 
 <!-- about section -->
@@ -40,5 +40,5 @@ include 'partial/header.php'
   </section>
 
 <?php
-include 'partial/footer.php'
+include 'partial/footer.php';
 ?>
