@@ -1,6 +1,5 @@
 <?php
 ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -11,12 +10,12 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
+  <meta name="keywords" content="Développement web,developpement mobil,gestion de projetweb" />
+  <meta name="description" content="Cabinet conseil en développement web et mobil" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-  <title> Offshore Services | Conseil entreprise</title>
+  <title> Offshore Services | Développement web et mobil </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
@@ -44,7 +43,7 @@
             <a href="" class="contact_link1">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
-                Votre spécialiste de l'entreprise
+                Conseil en gestion d'entreprise
               </span>
             </a>
             <a href="" class="contact_link2">
@@ -67,7 +66,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
               <span>
-                Conseil en gestion d'entreprise
+                Communiquez sur le web!!!
               </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +88,7 @@
                   <a class="nav-link" href="contact-us.php"> Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> Blog </a>
+                  <a class="nav-link" href="contact-us.php"> Blog </a>
                 </li>
           
               </ul>
@@ -109,13 +108,13 @@
                 <div class="col-md-7">
                   <div class="detail-box">
                     <h1>
-                      VOTRE EXPERT EN  <br>
+                      DEVELOPPEUR WEB <br>
                       <span>
-                        gestion d'entreprise
+                         ET MOBILE
                       </span>
                     </h1>
                     <p>
-                      Avant de vendre votre bien immobilier, il est nécessaire de réaliser plusieurs diagnostics immobiliers : amiante, DPE, plomb, gaz, électricité, termites, mesurage loi Carrez...  
+                      Développeur web et mobil je vous accompagne dans la mise en place de vos applications.  
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1"> EN SAVOIR PLUS </a>
@@ -132,9 +131,9 @@
                 <div class="col-md-7">
                   <div class="detail-box">
                     <h1>
-                      Building your visions <br>
+                      Faites moi parts de votre vision <br>
                       <span>
-                        Creating reality
+                        Je la concrétise
                       </span>
                     </h1>
                     <p>
@@ -178,9 +177,11 @@
         <div class="container idicator_container">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
           </ol>
         </div>
       </div>
     </section>
+    <!-- end slider section -->
+  </div>
