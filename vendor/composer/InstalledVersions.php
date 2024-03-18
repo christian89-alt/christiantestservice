@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3a74cd1b0f73afb68bceca0b79d16d4f1d616776',
+    'reference' => '43f35fabcb74de66d5c1a34e1fbf04850bb90850',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3a74cd1b0f73afb68bceca0b79d16d4f1d616776',
+      'reference' => '43f35fabcb74de66d5c1a34e1fbf04850bb90850',
     ),
     'doctrine/deprecations' => 
     array (
@@ -276,6 +276,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'b57d722f2bf6e1dc08df9c86efbfdcaaba89693b',
+    ),
+    'symfony/mailjet-mailer' => 
+    array (
+      'pretty_version' => 'v5.4.35',
+      'version' => '5.4.35.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd72a959531de9b2518d684a729949e6082c5594a',
     ),
     'symfony/mime' => 
     array (
