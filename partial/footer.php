@@ -68,7 +68,7 @@
             <a href="" class="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                demo@gmail.com
+                c.duboc43@gmail.com
               </span>
             </a>
           </div>
@@ -76,12 +76,12 @@
         <div class="col-md-3">
           <div class="info_form ">
             <h5>
-              Newsletter
+              Letrre d'information
             </h5>
             <form action="#">
               <input type="email" placeholder="Enter your email">
               <button>
-                Subscribe
+                Souscrire à notre lettre d'information
               </button>
             </form>
             <div class="social_box">
