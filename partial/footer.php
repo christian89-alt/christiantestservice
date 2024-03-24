@@ -49,20 +49,20 @@
         <div class="col-md-3">
           <div class="info_info">
             <h5>
-              Contact Us
+              Me contacter
             </h5>
           </div>
           <div class="info_contact">
             <a href="" class="">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
-                Lorem ipsum dolor sit amet,
+                Restons en contact
               </span>
             </a>
             <a href="" class="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call : +01 1234567890
+                Téléphone : +33 7 67 53 36 25
               </span>
             </a>
             <a href="" class="">
