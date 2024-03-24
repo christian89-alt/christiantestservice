@@ -67,12 +67,12 @@
         <div class="col-md-3">
           <div class="info_form ">
             <h5>
-              Letrre d'information
+              Lettre d'information
             </h5>
             <form action="#">
-              <input type="email" placeholder="Enter your email">
+              <input type="email" placeholder="Votre email ici">
               <button>
-                Souscrire à notre lettre d'information
+                Je m'inscris
               </button>
             </form>
             <div class="social_box">
