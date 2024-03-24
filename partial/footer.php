@@ -25,24 +25,15 @@
             <ul>
               <li>
                 <a href="https://www.francenum.gouv.fr/">
-                  France num pour vous accompagner dans la transition numérique
+                  FRANCE NUM
                 </a>
               </li>
               <li>
-                <a href="">
-                  Magna aliqua. Ut enim ad
+                <a href="https://www.bpifrance.fr/">
+                  BPI 
                 </a>
               </li>
-              <li>
-                <a href="">
-                  Minim veniam placeat
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  Quisdotempor incididunt
-                </a>
-              </li>
+             
             </ul>
           </div>
         </div>
