@@ -25,7 +25,7 @@ include 'partial/header.php';
                                 <h2 class="section-title">Contact Person</h2>
                                 <div class="editor-item">
                                     <div class="editor-img">
-                                        <img src="assets/img/php.jpg" alt="Editor Image">
+                                        <img src="assets/img/editor-1.jpg" alt="Editor Image">
                                     </div>
                                     <div class="editor-text">
                                         <h3>Name Goes Here</h3>
@@ -34,7 +34,7 @@ include 'partial/header.php';
                                 </div>
                                 <div class="editor-item">
                                     <div class="editor-img">
-                                        <img src="img/editor-1.jpg" alt="Editor Image">
+                                        <img src="assets/img/editor-1.jpg alt="Editor Image">
                                     </div>
                                     <div class="editor-text">
                                         <h3>Name Goes Here</h3>
@@ -43,7 +43,7 @@ include 'partial/header.php';
                                 </div>
                                 <div class="editor-item">
                                     <div class="editor-img">
-                                        <img src="img/editor-1.jpg" alt="Editor Image">
+                                        <img src="assets/img/editor-1.jpg" alt="Editor Image">
                                     </div>
                                     <div class="editor-text">
                                         <h3>Name Goes Here</h3>
