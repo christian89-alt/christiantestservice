@@ -4,46 +4,58 @@ include 'partial/header.php';
 ?>
 
 
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img_container">
-            <div class="img-box">
-              <img src="images/a1.jpg" class="about_img1" alt="" />
-              <img src="images/a2.jpg" class="about_img2" alt="" />
+ <!-- Contact Start -->
+ <div class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="section-title">Get In Touch</h2>
+                            <div class="contact-info">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.8657333246992!2d-73.95447848459209!3d40.80894417932154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f613438663b5%3A0xce20073c8862af08!2sW%20123rd%20St%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1589004464646!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <h3>How to reach us:</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor.
+                                </p>
+                                <h3>Mobile <span>+012 345 6789</span></h3>
+                                <h3>E-mail <span>contact@example.com</span></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="editor-info">
+                                <h2 class="section-title">Contact Person</h2>
+                                <div class="editor-item">
+                                    <div class="editor-img">
+                                        <img src="assets/img/php.jpg" alt="Editor Image">
+                                    </div>
+                                    <div class="editor-text">
+                                        <h3>Name Goes Here</h3>
+                                        <a href="mailto:email@example.com">Email Now</a>
+                                    </div>
+                                </div>
+                                <div class="editor-item">
+                                    <div class="editor-img">
+                                        <img src="img/editor-1.jpg" alt="Editor Image">
+                                    </div>
+                                    <div class="editor-text">
+                                        <h3>Name Goes Here</h3>
+                                        <a href="mailto:email@example.com">Email Now</a>
+                                    </div>
+                                </div>
+                                <div class="editor-item">
+                                    <div class="editor-img">
+                                        <img src="img/editor-1.jpg" alt="Editor Image">
+                                    </div>
+                                    <div class="editor-text">
+                                        <h3>Name Goes Here</h3>
+                                        <a href="mailto:email@example.com">Email Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <div class="detail-box">
-            <div class="heading_container ">
-              <h2>
-                Who Are We?
-              </h2>
-            </div>
-            <p>
-              Reprehenderit quia placeat odio. Consequuntur sunt quo expedita a. Ipsam nostrum maxime facere porro nemo itaque beatae, ad voluptate iste placeat debitis dolore asperiores fugiat totam eveniet consequatur natus. Aliquam.
-            </p>
-            <p>
-              Sed alias, labore iusto facilis doloribus fugiat totam officia corporis vitae error, voluptates nihil veniam et dicta eveniet deserunt at delectus placeat eligendi ipsum voluptatibus aliquam tempore molestiae veritatis. Aspernatur.
-            </p>
-            <div class="btn-box">
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-
-  <!-- info section -->
+            <!-- Contact End -->
   
 
 <?php
@@ -51,4 +63,4 @@ include 'partial/footer.php';
 ?>
 
 
-</html>
+
