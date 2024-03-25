@@ -14,8 +14,8 @@ include 'partial/header.php';
         <div class="col-md-6 ">
           <div class="img_container">
             <div class="img-box">
-              <img src="assets/img/a1.jpg" class="about_img1" alt="" />
-              <img src="assets/img/a2.jpg" class="about_img2" alt="" />
+              <img src="assets/img/blog-img-3.jpg" class="about_img1" alt="" />
+              <img src="assets/img/blog-img-5.jpg" class="about_img2" alt="" />
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ include 'partial/header.php';
           <div class="detail-box">
             <div class="heading_container ">
               <h2>
-                Who Are We?
+               Nos axes d'expertises
               </h2>
             </div>
             <p>
@@ -43,12 +43,7 @@ include 'partial/header.php';
     </div>
   </section>
 
-  <!-- end about section -->
-
-  <!-- info section -->
   
-
-  <!-- end info_section -->
 
 
 
@@ -59,6 +54,3 @@ include 'partial/header.php';
   include 'partial/footer.php';
 
   ?>
-  
-
-</html>
