@@ -14,8 +14,8 @@ include 'partial/header.php';
         <div class="col-md-6 ">
           <div class="img_container">
             <div class="img-box">
-              <img src="assets/img/blog-img-3.jpg" class="about_img1" alt="" />
-              <img src="assets/img/blog-img-5.jpg" class="about_img2" alt="" />
+              <img src="assets/img/blog-img-3.jpg" class="about_img1" alt="accompagnement et conseil en transition numérique" />
+              <img src="assets/img/php.jpg" class="about_img2" alt="langage de programmation" />
             </div>
           </div>
         </div>
@@ -23,18 +23,18 @@ include 'partial/header.php';
           <div class="detail-box">
             <div class="heading_container ">
               <h2>
-               Nos axes d'expertises
+               Mes axes d'expertises
               </h2>
             </div>
             <p>
-              Reprehenderit quia placeat odio. Consequuntur sunt quo expedita a. Ipsam nostrum maxime facere porro nemo itaque beatae, ad voluptate iste placeat debitis dolore asperiores fugiat totam eveniet consequatur natus. Aliquam.
+              Développeur web fullstack je vous accompagne dans la création de vos application web. Spécialiste WordPress, je saurais vous créer votre thème personnalisé<div class=""></div>
             </p>
             <p>
-              Sed alias, labore iusto facilis doloribus fugiat totam officia corporis vitae error, voluptates nihil veniam et dicta eveniet deserunt at delectus placeat eligendi ipsum voluptatibus aliquam tempore molestiae veritatis. Aspernatur.
+              Chef de projet, je suis en capacité d'accompagner vos équipes dans la céation de vos applications.
             </p>
             <div class="btn-box">
-              <a href="">
-                Read More
+              <a href="service.php">
+                PORTFOLIO
               </a>
             </div>
           </div>

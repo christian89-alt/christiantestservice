@@ -82,7 +82,7 @@
                   <a class="nav-link" href="about.php"> Le cabinet </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.php"> Services </a>
+                  <a class="nav-link" href="service.php"> Portfolio </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact-us.php"> Contact </a>
