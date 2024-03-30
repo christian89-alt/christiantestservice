@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '43f35fabcb74de66d5c1a34e1fbf04850bb90850',
+    'reference' => '4b601d4d6fddc9a2aa3ae9db7f64755dbc5e0d3f',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '43f35fabcb74de66d5c1a34e1fbf04850bb90850',
+      'reference' => '4b601d4d6fddc9a2aa3ae9db7f64755dbc5e0d3f',
     ),
     'doctrine/deprecations' => 
     array (
@@ -56,6 +56,51 @@
       ),
       'reference' => '9d94dc0154230ac39e5bf89398b324a86f63f765',
     ),
+    'guzzlehttp/guzzle' => 
+    array (
+      'pretty_version' => '7.8.1',
+      'version' => '7.8.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '41042bc7ab002487b876a0683fc8dce04ddce104',
+    ),
+    'guzzlehttp/promises' => 
+    array (
+      'pretty_version' => '2.0.2',
+      'version' => '2.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bbff78d96034045e58e13dedd6ad91b5d1253223',
+    ),
+    'guzzlehttp/psr7' => 
+    array (
+      'pretty_version' => '2.6.2',
+      'version' => '2.6.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '45b30f99ac27b5ca93cb4831afe16285f57b8221',
+    ),
+    'league/oauth2-client' => 
+    array (
+      'pretty_version' => '2.7.0',
+      'version' => '2.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '160d6274b03562ebeb55ed18399281d8118b76c8',
+    ),
+    'league/oauth2-google' => 
+    array (
+      'pretty_version' => '4.0.1',
+      'version' => '4.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1b01ba18ba31b29e88771e3e0979e5c91d4afe76',
+    ),
     'nikic/fast-route' => 
     array (
       'pretty_version' => 'v1.3.0',
@@ -82,6 +127,15 @@
       array (
       ),
       'reference' => '4335801d851f554ca43fa6e7d2602141538854dc',
+    ),
+    'paragonie/random_compat' => 
+    array (
+      'pretty_version' => 'v9.99.100',
+      'version' => '9.99.100.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
     ),
     'php-http/message-factory-implementation' => 
     array (
@@ -118,6 +172,22 @@
       'reference' => 'dbefd12671e8a14ec7f180cab83036ed26714bb0',
     ),
     'psr/event-dispatcher-implementation' => 
+    array (
+      'provided' => 
+      array (
+        0 => '1.0',
+      ),
+    ),
+    'psr/http-client' => 
+    array (
+      'pretty_version' => '1.0.3',
+      'version' => '1.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bb5906edc1c324c9a05aa0873d40117941e5fa90',
+    ),
+    'psr/http-client-implementation' => 
     array (
       'provided' => 
       array (

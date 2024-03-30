@@ -6,6 +6,7 @@
         "nyholm/psr7-server": "^1.1",
         "phpmailer/phpmailer": "^6.9",
         "symfony/mailer": "^5.4",
-        "symfony/mailjet-mailer": "^5.4"
+        "symfony/mailjet-mailer": "^5.4",
+        "league/oauth2-google": "^4.0"
     }
 }
