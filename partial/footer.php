@@ -33,6 +33,11 @@
                   BPI 
                 </a>
               </li>
+              <li>
+              <a href="sitemap.php">
+                SITEMAP 
+              </a>
+            </li>
              
             </ul>
           </div>
