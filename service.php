@@ -38,7 +38,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-2.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Développement mobil</a>
+                                    <a class="portfolio-title" href="mobil.php">Développement mobil</a>
                                 </figure>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-3.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Creation société Espagne</a>
+                                    <a class="portfolio-title" href="offshore.php">Creation société Espagne</a>
                                 </figure>
                             </div>
                         </div>
