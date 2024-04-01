@@ -25,8 +25,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-1.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <img src="assets/img/portfolio-1.jpg" alt="Portfolio Image">
+                                    <a href="assets/img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="web-developpement.php">Développement web</a>
                                 </figure>
@@ -35,8 +35,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-2.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <img src="assets/img/portfolio-2.jpg" alt="Portfolio Image">
+                                    <a href="assets/img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="mobil.php">Développement mobil</a>
                                 </figure>
@@ -45,8 +45,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-3.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <img src="assets/img/portfolio-4.jpg" alt="Portfolio Image">
+                                    <img src="assets/img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="offshore.php">Creation société Espagne</a>
                                 </figure>
@@ -55,8 +55,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-4.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <img src="assets/img/portfolio-4.jpg" alt="Portfolio Image">
+                                    <a href="assets/img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="assistance.php">Assistance administrative</a>
                                 </figure>
@@ -65,8 +65,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-1.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <img src="assets/img/portfolio-1.jpg" alt="Portfolio Image">
+                                    <a href="assets/img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="management.php">gestion de projet</a>
                                 </figure>
@@ -75,8 +75,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-2.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <img src="assets/img/portfolio-2.jpg" alt="Portfolio Image">
+                                    <a href="assets/img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="finances.php">Finance d'entreprise</a>
                                 </figure>
@@ -85,8 +85,8 @@ include 'partial/header.php';
                         <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
                             <div class="portfolio-wrap">
                                 <figure>
-                                    <img src="img/portfolio-3.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <img src="assets/img/portfolio-3.jpg" alt="Portfolio Image">
+                                    <a href="assets/img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
                                     <a class="portfolio-title" href="#">Project Name Here</a>
                                 </figure>
