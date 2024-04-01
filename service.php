@@ -7,16 +7,16 @@ include 'partial/header.php';
 <div class="portfolio">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Our Portfolio</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non</p>
+                        <h2>Mes services </h2>
+                        <p>Retrouver l'ensemble de mes services d'accompagnement</p>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <ul id="portfolio-flters">
-                                <li data-filter="*" class="filter-active">All</li>
-                                <li data-filter=".web-des">Design</li>
-                                <li data-filter=".web-dev">Development</li>
-                                <li data-filter=".dig-mar">Digital Marketing</li>
+                                <li data-filter="*" class="filter-active">Tout</li>
+                                <li data-filter=".web-des">Développement web</li>
+                                <li data-filter=".web-dev">Finance d'entreprise</li>
+                                <li data-filter=".dig-mar">OffsHore</li>
                             </ul>
                         </div>
                     </div>
