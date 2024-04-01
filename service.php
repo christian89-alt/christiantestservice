@@ -5,152 +5,105 @@ include 'partial/header.php';
 
 <!-- Portfolio Start -->
 <div class="portfolio">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Mes services </h2>
-                        <p>Retrouver l'ensemble de mes services d'accompagnement.Je vous assiste au quotidien dans la gestion de votre entreprise.</p>
-                        
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <ul id="portfolio-flters">
-                                <li data-filter="*" class="filter-active">Tout</li>
-                                <li data-filter=".web-des">Développement web</li>
-                                <li data-filter=".web-dev">Assistance administrative</li>
-                                <li data-filter=".dig-mar">OffsHore</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row portfolio-container">
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="assets/img/portfolio-1.jpg" alt="Portfolio Image">
-                                    <a href="assets/img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="web-developpement.php">Développement web</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="assets/img/portfolio-2.jpg" alt="Portfolio Image">
-                                    <a href="assets/img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="mobil.php">Développement mobil</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                <img src="assets/img/portfolio-4.jpg" alt="Portfolio Image">
-                                    <img src="assets/img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="offshore.php">Creation société Espagne</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="assets/img/portfolio-4.jpg" alt="Portfolio Image">
-                                    <a href="assets/img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="assistance.php">Assistance administrative</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="assets/img/portfolio-1.jpg" alt="Portfolio Image">
-                                    <a href="assets/img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="management.php">gestion de projet</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="assets/img/portfolio-2.jpg" alt="Portfolio Image">
-                                    <a href="assets/img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="finances.php">Finance d'entreprise</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="assets/img/portfolio-3.jpg" alt="Portfolio Image">
-                                    <a href="assets/img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-4.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-1.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-2.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-3.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-4.jpg" alt="Portfolio Image">
-                                    <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 load-more">
-                            <a class="btn" href="#">Load More</a>
-                        </div>
-                    </div>
+    <div class="container">
+        <div class="section-header">
+            <h2>Mes services </h2>
+            <p>Retrouver l'ensemble de mes services d'accompagnement.Je vous assiste au quotidien dans la gestion de votre entreprise.</p>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">Tout</li>
+                    <li data-filter=".web-des">Développement web</li>
+                    <li data-filter=".web-dev">Assistance administrative</li>
+                    <li data-filter=".dig-mar">OffsHore</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio-container">
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-1.jpg" alt="Portfolio Image">
+                        <a href="assets/img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="web-developpement.php">Développement web</a>
+                    </figure>
                 </div>
             </div>
-            <!-- Portfolio Start -->
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-2.jpg" alt="Portfolio Image">
+                        <a href="assets/img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="mobil.php">Développement mobil</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-4.jpg" alt="Portfolio Image">
+                        <img src="assets/img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="offshore.php">Creation société Espagne</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-4.jpg" alt="Portfolio Image">
+                        <a href="assets/img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="assistance.php">Assistance administrative</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-des">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-1.jpg" alt="Portfolio Image">
+                        <a href="assets/img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="management.php">gestion de projet</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item web-dev">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-2.jpg" alt="Portfolio Image">
+                        <a href="assets/img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="finances.php">Finance d'entreprise</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 portfolio-item dig-mar">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="assets/img/portfolio-3.jpg" alt="Portfolio Image">
+                        <a href="assets/img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a href="#" class="link-details"><i class="fa fa-link"></i></a>
+                        <a class="portfolio-title" href="#">Project Name Here</a>
+                    </figure>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Portfolio Start -->
 
 
 <?php
