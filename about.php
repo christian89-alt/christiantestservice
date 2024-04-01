@@ -32,6 +32,9 @@ include 'partial/header.php';
             <p>
               Chef de projet, je suis en capacité d'accompagner vos équipes dans la céation de vos applications.
             </p>
+            <p>
+              Je vous accompagne dans la gestion de votre entreprise et prend en charge l'ensemble de vos dossiers de demande de subvention ou de demande de crédits auprès d'un réseau de partenaires bancaires.
+            </p>
             <div class="btn-box">
               <a href="service.php">
                 PORTFOLIO

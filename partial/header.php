@@ -118,8 +118,8 @@
                       Développeur web et mobil je vous accompagne dans la mise en place de vos applications.  
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1"> EN SAVOIR PLUS </a>
-                      <a href="" class="btn-2">DEVIS</a>
+                      <a href="about.php" class="btn-1"> EN SAVOIR PLUS </a>
+                      <a href="devis.php" class="btn-2">DEVIS</a>
                     </div>
                   </div>
                 </div>
