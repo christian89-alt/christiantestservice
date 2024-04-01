@@ -58,7 +58,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-4.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Assistance administrative</a>
+                                    <a class="portfolio-title" href="assistance.php">Assistance administrative</a>
                                 </figure>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-1.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">gestion de projet</a>
+                                    <a class="portfolio-title" href="management.php">gestion de projet</a>
                                 </figure>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-2.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
+                                    <a class="portfolio-title" href="#">project here</a>
                                 </figure>
                             </div>
                         </div>
