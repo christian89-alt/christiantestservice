@@ -26,7 +26,7 @@ include 'partial/header.php';
             </div>
             <div class="col-md-6">
                 <div class="editor-info">
-                    <h2 class="section-title">Contact Person</h2>
+                    <h2 class="section-title">Responsable </h2>
                     <div class="editor-item">
                         <div class="editor-img">
                             <img src="assets/img/editor-1.jpg" alt="Editor Image">
@@ -36,24 +36,10 @@ include 'partial/header.php';
                             <a href="mailto:c.duboc43@gmail.com">Envoyer un email</a>
                         </div>
                     </div>
-                    <div class="editor-item">
-                        <div class="editor-img">
-                            <img src="assets/img/editor-1.jpg alt=" Editor Image">
-                        </div>
-                        <div class="editor-text">
-                            <h3>Name Goes Here</h3>
-                            <a href="mailto:email@example.com">Email Now</a>
-                        </div>
-                    </div>
-                    <div class="editor-item">
-                        <div class="editor-img">
-                            <img src="assets/img/editor-1.jpg" alt="Editor Image">
-                        </div>
-                        <div class="editor-text">
-                            <h3>Name Goes Here</h3>
-                            <a href="mailto:email@example.com">Email Now</a>
-                        </div>
-                    </div>
+                   
+                        
+
+                        
                 </div>
             </div>
         </div>
