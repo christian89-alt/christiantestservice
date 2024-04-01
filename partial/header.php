@@ -166,8 +166,8 @@
                       sed do eiusmod magna aliqua. Ut enim ad minim veniam
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Get A Quote</a>
+                      <a href="about.php" class="btn-1">EN SAVOIR PLUS </a>
+                      <a href="devis.php" class="btn-2">DEVIS</a>
                     </div>
                   </div>
                 </div>
