@@ -78,7 +78,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-2.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">project here</a>
+                                    <a class="portfolio-title" href="finances.php">Finance d'entreprise</a>
                                 </figure>
                             </div>
                         </div>
