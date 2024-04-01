@@ -15,7 +15,7 @@ include 'partial/header.php';
                             <ul id="portfolio-flters">
                                 <li data-filter="*" class="filter-active">Tout</li>
                                 <li data-filter=".web-des">Développement web</li>
-                                <li data-filter=".web-dev">Finance d'entreprise</li>
+                                <li data-filter=".web-dev">Assistance administrative</li>
                                 <li data-filter=".dig-mar">OffsHore</li>
                             </ul>
                         </div>
