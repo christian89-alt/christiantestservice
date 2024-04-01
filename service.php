@@ -8,7 +8,8 @@ include 'partial/header.php';
                 <div class="container">
                     <div class="section-header">
                         <h2>Mes services </h2>
-                        <p>Retrouver l'ensemble de mes services d'accompagnement</p>
+                        <p>Retrouver l'ensemble de mes services d'accompagnement.Je vous assiste au quotidien dans la gestion de votre entreprise.</p>
+                        
                     </div>
                     <div class="row">
                         <div class="col-12">
@@ -27,7 +28,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-1.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
+                                    <a class="portfolio-title" href="web-developpement.php">Développement web</a>
                                 </figure>
                             </div>
                         </div>
@@ -37,7 +38,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-2.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
+                                    <a class="portfolio-title" href="#">Développement mobil</a>
                                 </figure>
                             </div>
                         </div>
@@ -47,7 +48,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-3.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
+                                    <a class="portfolio-title" href="#">Creation société Espagne</a>
                                 </figure>
                             </div>
                         </div>
@@ -57,7 +58,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-4.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
+                                    <a class="portfolio-title" href="#">Assistance administrative</a>
                                 </figure>
                             </div>
                         </div>
@@ -67,7 +68,7 @@ include 'partial/header.php';
                                     <img src="img/portfolio-1.jpg" alt="Portfolio Image">
                                     <a href="img/portfolio-1.jpg" class="link-preview" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="link-details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name Here</a>
+                                    <a class="portfolio-title" href="#">gestion de projet</a>
                                 </figure>
                             </div>
                         </div>
