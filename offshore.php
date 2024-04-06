@@ -2,103 +2,49 @@
 include 'partial/header.php';
 ?>
 
-<div class="container py-3">
-  <div class="title h1 text-center">Espagne</div>
-  <!-- Card Start -->
-  <div class="card">
-    <div class="row ">
 
-      <div class="col-md-7 px-3">
-        <div class="card-block px-6">
-          <h4 class="card-title">Horizontal Card with Carousel - Bootstrap 4 </h4>
-          <p class="card-text">
-            The Carousel code can be replaced with an img src, no problem. The added CSS brings shadow to the card and some adjustments to the prev/next buttons and the indicators is rounded now. As in Bootstrap 3
-          </p>
-          <p class="card-text">Made for usage, commonly searched for. Fork, like and use it. Just move the carousel div above the col containing the text for left alignment of images</p>
-          <br>
-          <a href="#" class="mt-auto btn btn-primary  ">Read More</a>
-        </div>
-      </div>
-      <!-- Carousel start -->
-      <div class="col-md-5">
-        <div id="CarouselTest" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#CarouselTest" data-slide-to="0" class="active"></li>
-            <li data-target="#CarouselTest" data-slide-to="1"></li>
-            <li data-target="#CarouselTest" data-slide-to="2"></li>
-
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block" src="https://picsum.photos/450/300?image=1072" alt="">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src="https://picsum.photos/450/300?image=855" alt="">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src="https://picsum.photos/450/300?image=355" alt="">
-            </div>
-            <a class="carousel-control-prev" href="#CarouselTest" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-            <a class="carousel-control-next" href="#CarouselTest" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-          </div>
-        </div>
-      </div>
-      <!-- End of carousel -->
-    </div>
-  </div>
-  <!-- End of card -->
-
-</div>
-
-<div class="container">
-  <div class="card float-left">
-    <div class="row ">
-
-      <div class="col-sm-7">
-        <div class="card-block">
-          <!--           <h4 class="card-title">Small card</h4> -->
-          <p>Wetgple text to build your own card.</p>
-          <p>Change around the content for awsomenes</p>
-          <a href="#" class="btn btn-primary btn-sm">Read More</a>
-        </div>
-      </div>
-
-      <div class="col-sm-5">
-        <img class="d-block w-100" src="https://picsum.photos/150?image=380" alt="">
+<ul class="cards">
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--fence"></div>
+      <div class="card__content">
+        <div class="card__title">Flex</div>
+        <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+        <button class="btn btn--block card__btn">Button</button>
       </div>
     </div>
-  </div>
-
- 
-    <div class="card float-right">
-      <div class="row">
-        <div class="col-sm-5">
-          <img class="d-block w-100" src="https://picsum.photos/150?image=641" alt="">
-        </div>
-        <div class="col-sm-7">
-          <div class="card-block">
-            <!--           <h4 class="card-title">Small card</h4> -->
-            <p>Copy paste the HTML and CSS.</p>
-            <p>Change around the content for awsomenes</p>
-            <br>
-            <a href="#" class="btn btn-primary btn-sm float-right">Read More</a>
-          </div>
-        </div>
- 
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--river"></div>
+      <div class="card__content">
+        <div class="card__title">Flex Grow</div>
+        <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+        <button class="btn btn--block card__btn">Button</button>
       </div>
     </div>
-  </div>
- 
- <br>
-<br>
- 
-
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--record"></div>
+      <div class="card__content">
+        <div class="card__title">Flex Shrink</div>
+        <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
+        <button class="btn btn--block card__btn">Button</button>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <div class="card__image card__image--flowers"></div>
+      <div class="card__content">
+        <div class="card__title">Flex Basis</div>
+        <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
+        <button class="btn btn--block card__btn">Button</button>
+      </div>
+    </div>
+  </li>
+</ul>
 
 
 <?php
