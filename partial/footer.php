@@ -38,6 +38,11 @@
                 SITEMAP 
               </a>
             </li>
+            <li>
+              <a href="sitemap.php">
+                BLOG 
+              </a>
+            </li>
              
             </ul>
           </div>

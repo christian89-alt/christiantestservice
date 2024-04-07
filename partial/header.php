@@ -90,7 +90,7 @@
                   <a class="nav-link" href="contact-us.php"> Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> Blog </a>
+                  <a class="nav-link" href="devis.php"> Votre devis </a>
                 </li>
           
               </ul>
