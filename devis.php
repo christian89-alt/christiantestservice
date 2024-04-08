@@ -1,7 +1,6 @@
 <?php
 include 'partial/header.php';
 
-
 ?>
 
 <div class="wrapper" style="background-image: url('assets/img/2pop-bg.jpg');">
