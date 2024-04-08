@@ -21,6 +21,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
   <link rel="stylesheet" href="assets/css/service.css"/>
   <link rel="stylesheet" href="assets/css/loginform.css">
+  <link rel="stylesheet" href="assets/css/ecommerce.css">
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
@@ -91,7 +92,7 @@
                   <a class="nav-link" href="contact-us.php"> Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="devis.php"> Votre devis </a>
+                  <a class="nav-link" href="boutique.php"> Votre devis </a>
                 </li>
           
               </ul>

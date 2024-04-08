@@ -9,7 +9,9 @@ include 'partial/header.php';
 					<img src="assets/img/charlesdeluvio-rRWiVQzLm7k-unsplash.jpg" alt="">
 				</div>
 				<form action="">
-					<h3>Registration Form</h3>
+					<h3>Votre espace personnel</h3>
+                    <p>Vous avez un projet?</p>
+                    <p>N'hésitez pas à nous demander un devis.</p>
 					<div class="form-group">
 						<input type="text" placeholder="First Name" class="form-control">
 						<input type="text" placeholder="Last Name" class="form-control">
