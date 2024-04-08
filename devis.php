@@ -40,7 +40,7 @@ include 'partial/header.php';
 						<input type="password" placeholder="Confirm Password" class="form-control">
 						<i class="zmdi zmdi-lock"></i>
 					</div>
-					<button>Register
+					<button>Je m'enregistre
 						<i class="zmdi zmdi-arrow-right"></i>
 					</button>
 				</form>
