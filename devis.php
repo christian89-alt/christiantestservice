@@ -1,30 +1,55 @@
 <?php
 include 'partial/header.php';
 
-require_once(__DIR__ . '/variables.php');
-require_once(__DIR__ . '/functions.php');
+
+?>
+
+<div class="wrapper" style="background-image: url('assets/img/2pop-bg.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/registration-form-1.jpg" alt="">
+				</div>
+				<form action="">
+					<h3>Registration Form</h3>
+					<div class="form-group">
+						<input type="text" placeholder="First Name" class="form-control">
+						<input type="text" placeholder="Last Name" class="form-control">
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Username" class="form-control">
+						<i class="zmdi zmdi-account"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Email Address" class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+					<div class="form-wrapper">
+						<select name="" id="" class="form-control">
+							<option value="" disabled selected>Gender</option>
+							<option value="male">Male</option>
+							<option value="femal">Female</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Password" class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Confirm Password" class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<button>Register
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
 
 
-<div class= "d-flex flex-column min-vh-100">
-<div class="container">
- 
-
-    <h1>Obtenez un devis pour vos besoins</h1>
 
 
-    <?php require_once(__DIR__ . '/login.php'); ?>
-
-    <?php if (isset($loggedUser)) : ?>
-        <?php foreach (getRecipes($recipes) as $recipe) : ?>
-            <article>
-                <h3><?php echo $recipe['title']; ?></h3>
-                <div><?php echo $recipe['recipe']; ?></div>
-                <i><?php echo displayAuthor($recipe['author'], $users); ?></i>
-            </article>
-        <?php endforeach ?>
-    <?php endif; ?>
-</div>
-</div>
 
 
 
