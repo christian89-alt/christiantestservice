@@ -7,7 +7,7 @@ include 'partial/header.php';
 <div class="wrapper" style="background-image: url('assets/img/2pop-bg.jpg');">
 			<div class="inner">
 				<div class="image-holder">
-					<img src="images/registration-form-1.jpg" alt="">
+					<img src="assets/img/charlesdeluvio-rRWiVQzLm7k-unsplash.jpg" alt="">
 				</div>
 				<form action="">
 					<h3>Registration Form</h3>
@@ -46,17 +46,6 @@ include 'partial/header.php';
 				</form>
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
