@@ -37,12 +37,12 @@ include 'partial/header.php';
 
     							<div class="d-flex justify-content-between align-items-center">
 
-    								<h5 class="dress-name">White traditional long dress</h5>
+    								<h5 class="dress-name">Création site WordPress</h5>
 
     								<div class="d-flex flex-column mb-2">
 
-    									<span class="new-price">$3.99</span>
-    									<small class="old-price text-right">$5.99</small>
+    									<span class="new-price">1000,00 €</span>
+    									<small class="old-price text-right">1000</small>
     								</div>
 
     							</div>
