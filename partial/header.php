@@ -125,7 +125,7 @@
                     </p>
                     <div class="btn-box">
                       <a href="about.php" class="btn-1"> EN SAVOIR PLUS </a>
-                      <a href="boutique.php" class="btn-2">BOUTIQUE</a>
+                      <a href="boutique/index.php" class="btn-2">BOUTIQUE</a>
                     </div>
                   </div>
                 </div>
