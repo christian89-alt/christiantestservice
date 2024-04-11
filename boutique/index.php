@@ -8,7 +8,7 @@ require '../partial/header.php';
 
     <div class="row">
 
-        <div class="col-md-3">
+        <div cgit addlass="col-md-3">
 
 
 
