@@ -261,7 +261,7 @@ require '../partial/header.php';
 
                 <div class="image-container">
 
-                    <div class="first">
+                      <div class="first">
 
                         <div class="d-flex justify-content-between align-items-center">
 

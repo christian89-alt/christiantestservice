@@ -1,7 +1,35 @@
-<?php
-include 'partial/header.php';
+<!DOCTYPE html>
+<html>
 
-?>
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="Développement web,developpement mobil,gestion de projetweb" />
+  <meta name="description" content="Cabinet conseil en développement web et mobil" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <title> Offshore Services | Développement web et mobil </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/service.css"/>
+  <link rel="stylesheet" href="assets/css/loginform.css">
+  <link rel="stylesheet" href="assets/css/ecommerce.css">
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700 Poppins:400,600,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="assets/css/responsive.css" rel="stylesheet" />
+</head>
 
 <div class="container mt-5">
 
