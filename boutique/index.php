@@ -1,167 +1,512 @@
 <?php
-include 'partial/header.php';
+require '../partial/header.php';
 
 ?>
 
+<div class="container mt-5">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website with login and register form</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kenia&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/all.min.css">
-    <link rel="stylesheet" href="style/style2.css">
 
-</head>
-<body>
-    <header>
-        <h2 class="logo">Logo</h2>
-        <nav class="navigation">
-            <a href="#">Acceuil</a>
-            <a href="#">Apropos</a>
-            <a href="#">Articles</a>
-            <a href="#">Contact</a>
-            <button class="btnLogin-popup">Connexion</button>
-            <button class="btnLogin-popup"><a href="pages/admin.html">Administration</a></button>
-        </nav>
-    </header>
-    <main>
-        <section class="body">
-            <div class="wrapper un <?= $message ??'' ?> ">
-                <span class="icon-close">
-                <i>x</i>
-                </span>
+    <div class="row">
 
-                <!-- login -->
-                <div class="form-box login">
-                    <h2>Connexion</h2>
-                    <form action="login.php" method="post">
-                        <div class="input-box">
-                            <span class="icon">
-                                <i class="fa fa-envelope"></i>
-                            </span>
-                            <input type="email" name="email" required>
-                            <label>Email</label>
-                        </div>
-                        <div class="input-box">
-                            <span class="icon">
-                                <i class="fa fa-lock"></i>
-                            </span>
-                            <input type="password" name="password" required>
-                            <label>Password</label>
-                        </div>
-                        <div class="remember-forgot">
-                            <label><input type="checkbox">Se souvenir de moi
-                            </label>
-                            <a href="#">Mot de pass oublié?</a>
-                        </div>
-                        <button type="submit" class="btn">Connexion</button>
-                            <div style="color: #ca3b20">
-                            </div>
-                        <div class="login-register">
-                            <p>Vous n'avez pas de compte?<a href="#" class="register-link">S'inscrire</a></p>
-                        </div>
-                    </form>
+        <div class="col-md-3">
 
-                </div>
-                <!-- signin -->
-                <div class="form-box register">
-                    <h2>S'inscrire</h2>
-                    <form action="signin.php" method="POST">
-                        <div class="input-box">
-                            <span class="icon">
-                                <i class="fa fa-user"></i>
-                            </span>
-                            <input type="text" name="nom" required>
-                            <label>Nom d'utilisateur</label>
-                        </div>
-                        <div class="input-box">
-                            <span class="icon">
-                                <i class="fa fa-envelope"></i>
-                            </span>
-                            <input type="email" name="email" required>
-                            <label>Email</label>
-                        </div>
-                        <div class="input-box">
-                            <span class="icon">
-                                <i class="fa fa-lock"></i>
-                            </span>
-                            <input type="password" name="password" required>
-                            <label>Password</label>
-                        </div>
-                        <div class="remember-forgot">
-                            <label><input type="checkbox">J'accept les termes & conditions
-                            </label>
-                        </div>
-                        <button type="submit" class="btn">S'inscrire</button>
-                            <div style="color: #ca3b20">
-                            </div>
-                        <div class="login-register">
-                            <p>Vous avez deja un compte?<a href="#" class="login-link">Connexion</a></p>
-                        </div>
-                    </form>
 
-                </div>
-            </div> 
-            <div class="wrapper deux">
-                <div>
-                    <h3>Trouver ton prochain</h3>
-                    <h2>Article  ici</h2>
-                </div>
-            </div>
-        </section>
-        <section class="site-section aos-init aos-animate" id='sticky'>
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center border-primary">
-                        <h2 class="font-weight-light text-primary">Nos articles</h2>
-                        <p class="color-black-opacity-5">Nos articles les plus demandé</p>
+
+            <div class="card">
+
+                <div class="image-container">
+
+                    <div class="first">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="discount">-25%</span>
+                            <span class="wishlist"><i class="fa fa-heart-o"></i></span>
+
+
+                        </div>
                     </div>
+
+                    <img src="https://i.imgur.com/8JIWpnw.jpg" class="img-fluid rounded thumbnail-image">
+
+
                 </div>
-                <div class="row">
-                        <div class="col-md-4 mb-4 col-lg-4" style="max-width: 300px;">
-                            <div class="listing-item">
-                                <div class="listing-image">
-                                    <img src="images/mesh-genova.JPG" alt="Image" class="img-fluid">
-                                </div>
-                                <div class="listing-item-content">
-                                    <a href="./pages/commande.html" class="bookmark" data-toggle="tooltip" data-placement="left" title="Bookmark">
-                                        <span class="fas fa-cart-arrow-down"></span>
-                                    </a>
-                                    <a class="px-3 mb-3 category" href="#">30$</a>
-                                    <h2 class="mb-1"><a href="#">nom de l'article</a></h2>
-                                    <span class="address"><address></address></span>
-                                </div>
-                            </div>
+
+
+                <div class="product-detail-container p-2">
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <h5 class="dress-name">Création site WordPress</h5>
+
+                        <div class="d-flex flex-column mb-2">
+
+                            <span class="new-price">1000,00 €</span>
+                            <small class="old-price text-right">1000</small>
                         </div>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+
+                        <div class="color-select d-flex ">
+
+                            <input type="button" name="grey" class="btn creme">
+                            <input type="button" name="red" class="btn red ml-2">
+                            <input type="button" name="blue" class="btn blue ml-2">
+
+                        </div>
+
+                        <div class="d-flex ">
+
+                            <span class="item-size mr-2 btn" type="button">S</span>
+                            <span class="item-size mr-2 btn" type="button">M</span>
+                            <span class="item-size btn" type="button">L</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+                        <div>
+                            <i class="fa fa-star-o rating-star"></i>
+                            <span class="rating-number">4.8</span>
+                        </div>
+
+                        <span class="buy">BUY +</span>
+
+                    </div>
+
+
+
                 </div>
+
             </div>
-        </section>
-    </main>
-    <footer>
-    <div class="container">
-        
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-            <p>
-            Copyright ©<script>document.write(new Date().getFullYear());</script>2023 All rights reserved | This template is made with <i class="icon-heart"></i> by <a href="https://accrodev.xyz" target="_blank">AccroDev</a>
-            </p>
+
+
+
+
+
+            <div class="mt-3">
+                <div class="card voutchers">
+
+                    <div class="voutcher-divider">
+
+                        <div class="voutcher-left text-center">
+                            <span class="voutcher-name">Monday Happy</span>
+                            <h5 class="voutcher-code">#MONHPY</h5>
+
+                        </div>
+                        <div class="voutcher-right text-center border-left">
+                            <h5 class="discount-percent">20%</h5>
+                            <span class="off">Off</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-          </div>
-          
+
+
+
+
+
+
         </div>
-      </div>
-    </footer>
-    <script src="boutique/script/script.js"></script>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-3">
+
+
+
+            <div class="card">
+
+                <div class="image-container">
+
+                    <div class="first">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="discount">-25%</span>
+                            <span class="wishlist"><i class="fa fa-heart-o"></i></span>
+
+
+                        </div>
+                    </div>
+
+                    <img src="https://i.imgur.com/PtepOpe.jpg" class="img-fluid rounded thumbnail-image">
+
+
+                </div>
+
+
+                <div class="product-detail-container p-2">
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <h5 class="dress-name">Long sleeve denim jacket</h5>
+
+                        <div class="d-flex flex-column mb-2">
+
+                            <span class="new-price">$3.99</span>
+                            <small class="old-price text-right">$5.99</small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+
+                        <div class="color-select d-flex ">
+
+                            <input type="button" name="grey" class="btn creme">
+
+                            <input type="button" name="darkblue" class="btn darkblue ml-2">
+
+                        </div>
+
+                        <div class="d-flex ">
+
+                            <span class="item-size mr-2 btn" type="button">S</span>
+                            <span class="item-size mr-2 btn" type="button">M</span>
+                            <span class="item-size btn" type="button">L</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+                        <div>
+                            <i class="fa fa-star-o rating-star"></i>
+                            <span class="rating-number">4.8</span>
+                        </div>
+
+                        <span class="buy">BUY +</span>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="mt-3">
+                <div class="card voutchers">
+
+                    <div class="voutcher-divider">
+
+                        <div class="voutcher-left text-center">
+                            <span class="voutcher-name">Payday Surprise</span>
+                            <h5 class="voutcher-code">#SRPSPYDY</h5>
+
+                        </div>
+                        <div class="voutcher-right text-center border-left">
+                            <h5 class="discount-percent">20%</h5>
+                            <span class="off">Off</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-3">
+
+
+
+            <div class="card">
+
+                <div class="image-container">
+
+                    <div class="first">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="discount">-25%</span>
+                            <span class="wishlist"><i class="fa fa-heart-o"></i></span>
+
+
+                        </div>
+                    </div>
+
+                    <img src="https://i.imgur.com/ePJKs8Q.jpg" class="img-fluid rounded thumbnail-image">
+
+
+                </div>
+
+
+                <div class="product-detail-container p-2">
+
+                    <div class="d-flex justify-content-between ">
+
+                        <h5 class="dress-name">Hush Puppies</h5>
+
+                        <div class="d-flex flex-column mb-2">
+
+                            <span class="new-price">$3.99</span>
+                            <small class="old-price text-right">$5.99</small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+
+                        <div class="color-select d-flex ">
+
+                            <input type="button" name="grey" class="btn creme">
+                            <input type="button" name="yellow" class="btn yellow ml-2">
+                            <input type="button" name="blue" class="btn blue ml-2">
+
+                        </div>
+
+                        <div class="d-flex ">
+
+                            <span class="item-size mr-2 btn" type="button">S</span>
+                            <span class="item-size mr-2 btn" type="button">M</span>
+                            <span class="item-size btn" type="button">L</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+                        <div>
+                            <i class="fa fa-star-o rating-star"></i>
+                            <span class="rating-number">4.2</span>
+                        </div>
+
+                        <span class="buy">BUY +</span>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <div class="mt-3">
+                <div class="card voutchers">
+
+                    <div class="voutcher-divider">
+
+                        <div class="voutcher-left text-center">
+                            <span class="voutcher-name">First order</span>
+                            <h5 class="voutcher-code">#HPYFRST</h5>
+
+                        </div>
+                        <div class="voutcher-right text-center border-left">
+                            <h5 class="discount-percent">20%</h5>
+                            <span class="off">Off</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-3">
+
+
+
+            <div class="card">
+
+                <div class="image-container">
+
+                    <div class="first">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="discount">-25%</span>
+                            <span class="wishlist"><i class="fa fa-heart-o"></i></span>
+
+
+                        </div>
+                    </div>
+
+                    <img src="https://i.imgur.com/snffLH3.jpg" class="img-fluid rounded thumbnail-image">
+
+
+                </div>
+
+
+                <div class="product-detail-container p-2">
+
+                    <div class="d-flex justify-content-between ">
+
+                        <h5 class="dress-name">Athens skirt </h5>
+
+                        <div class="d-flex flex-column mb-2">
+
+                            <span class="new-price">$3.99</span>
+                            <small class="old-price text-right">$5.99</small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+
+                        <div class="color-select d-flex ">
+
+                            <input type="button" name="grey" class="btn creme">
+                            <input type="button" name="red" class="btn red ml-2">
+                            <input type="button" name="blue" class="btn blue ml-2">
+
+                        </div>
+
+                        <div class="d-flex ">
+
+                            <span class="item-size mr-2 btn" type="button">S</span>
+                            <span class="item-size mr-2 btn" type="button">M</span>
+                            <span class="item-size btn" type="button">L</span>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+                        <div>
+                            <i class="fa fa-star-o rating-star"></i>
+                            <span class="rating-number">3.8</span>
+                        </div>
+
+                        <span class="buy">BUY +</span>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="mt-3">
+                <div class="card voutchers">
+
+                    <div class="voutcher-divider">
+
+                        <div class="voutcher-left text-center">
+                            <span class="voutcher-name">Vegetarian Food</span>
+                            <h5 class="voutcher-code">#VEGANLOVE</h5>
+
+                        </div>
+                        <div class="voutcher-right text-center border-left">
+                            <h5 class="discount-percent">20%</h5>
+                            <span class="off">Off</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
 
 <?php
-include 'partial/footer.php';
+require '../partial/header.php';
 
 ?>

@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/css/service.css"/>
   <link rel="stylesheet" href="assets/css/loginform.css">
   <link rel="stylesheet" href="assets/css/ecommerce.css">
+  <link rel="stylesheet" href="assets/css/eco.css">
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
