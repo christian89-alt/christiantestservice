@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="assets/css/service.css"/>
   <link rel="stylesheet" href="assets/css/loginform.css">
   <link rel="stylesheet" href="assets/css/ecommerce.css">
-  <link rel="stylesheet" href="assets/css/eco.css">
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
@@ -93,10 +92,10 @@
                   <a class="nav-link" href="contact-us.php"> Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="boutique/index.php"> Boutique </a>
+                  <a class="nav-link" href="boutique/index.php"> Connexion </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> Blog</a>
+                  <a class="nav-link" href="login form.php"> Blog</a>
                 </li>
           
               </ul>
