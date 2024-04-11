@@ -92,10 +92,10 @@
                   <a class="nav-link" href="contact-us.php"> Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="boutique/index.php"> Connexion </a>
+                  <a class="nav-link" href="login form.php"> Connexion </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="login form.php"> Blog</a>
+                  <a class="nav-link" href="#"> Blog</a>
                 </li>
           
               </ul>
@@ -125,7 +125,7 @@
                     </p>
                     <div class="btn-box">
                       <a href="about.php" class="btn-1"> EN SAVOIR PLUS </a>
-                      <a href="boutique/index.php" class="btn-2">BOUTIQUE</a>
+                      <a href="boutique.php" class="btn-2">BOUTIQUE</a>
                     </div>
                   </div>
                 </div>

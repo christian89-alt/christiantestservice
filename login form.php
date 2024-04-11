@@ -44,6 +44,9 @@ include 'partial/header.php';
 					<button>Je m'enregistre
 						<i class="zmdi zmdi-arrow-right"></i>
 					</button>
+					<p>Pas encore de compte ? J'en crée un </p>
+					<p>Mot de passe oublié? </p>
+				
 				</form>
 			</div>
 		</div>
