@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4b601d4d6fddc9a2aa3ae9db7f64755dbc5e0d3f',
+    'reference' => 'ca3182299daaa5c281a50a817c627f1daafd929c',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,16 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4b601d4d6fddc9a2aa3ae9db7f64755dbc5e0d3f',
+      'reference' => 'ca3182299daaa5c281a50a817c627f1daafd929c',
+    ),
+    'altorouter/altorouter' => 
+    array (
+      'pretty_version' => '2.0.2',
+      'version' => '2.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f6fede4f94ced7c22ba63a9b8af0bf2dc38e3cb2',
     ),
     'doctrine/deprecations' => 
     array (
