@@ -387,7 +387,7 @@ include 'partial/header.php';
     						<div class="first">
     							
     							<div class="d-flex justify-content-between align-items-center">
-
+ 
     							<span class="discount">-25%</span>
     							<span class="wishlist"><i class="fa fa-heart-o"></i></span>
     							
